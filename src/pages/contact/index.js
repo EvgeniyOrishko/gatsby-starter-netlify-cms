@@ -12,7 +12,7 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isValidated: false };
+    this.state = { isValidated: false, dynamic: false };
   }
 
   handleChange = e => {
@@ -34,10 +34,19 @@ export default class Index extends React.Component {
       .catch(error => alert(error));
   };
 
+  fetchDynamic = e => {
+    fetch(`https://api.github.com/repos/gatsbyjs/gatsby`)
+      .then(response => response.json()) // parse JSON from request
+      .then(resultData => {
+        this.setState({ dynamic: resultData });
+      });
+  };
+
   render() {
     const titles = this.props.data.allPrismicArticle.nodes[0].data.title;
+    const url = this.state.dynamic && this.state.dynamic.url;
 
-    console.warn("titles", titles);
+    // console.warn("titles", this.state.dynamic && this.state.dynamic.url);
 
     return (
       <Layout>
@@ -51,6 +60,12 @@ export default class Index extends React.Component {
                   <span>{item.text}</span>
                 ))}
               </div>
+
+              <div>Fetch data</div>
+
+              <button onClick={this.fetchDynamic}>Get data</button>
+
+              <div>Is data present: {url || 'false'}</div>
 
               <form
                 name="contact"
