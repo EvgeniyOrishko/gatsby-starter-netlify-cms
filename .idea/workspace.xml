@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5dd909-4d6c-41af-8942-69497858a5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/schemas/plans.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/preview-templates/AboutPagePreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,16 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
   <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -53,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.develop" />
         <item itemvalue="npm.start" />
       </list>
@@ -68,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586777266460</updated>
-      <workItem from="1586777268233" duration="5513000" />
+      <workItem from="1586777268233" duration="9262000" />
     </task>
     <servers />
   </component>
@@ -80,25 +90,25 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="454" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586779021997" />
-    <state width="1419" height="489" key="GridCell.Tab.0.bottom" timestamp="1586783932067">
+    <state width="1419" height="484" key="GridCell.Tab.0.bottom" timestamp="1586790779882">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1419" height="489" key="GridCell.Tab.0.bottom/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586783932067" />
+    <state width="1419" height="484" key="GridCell.Tab.0.bottom/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586790779882" />
     <state width="1419" height="489" key="GridCell.Tab.0.bottom/0.23.1440.877/-1783.-1057.2048.1008@0.23.1440.877" timestamp="1586781301574" />
-    <state width="1419" height="489" key="GridCell.Tab.0.center" timestamp="1586783932066">
+    <state width="1419" height="484" key="GridCell.Tab.0.center" timestamp="1586790779880">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1419" height="489" key="GridCell.Tab.0.center/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586783932066" />
+    <state width="1419" height="484" key="GridCell.Tab.0.center/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586790779880" />
     <state width="1419" height="489" key="GridCell.Tab.0.center/0.23.1440.877/-1783.-1057.2048.1008@0.23.1440.877" timestamp="1586781301573" />
-    <state width="1419" height="489" key="GridCell.Tab.0.left" timestamp="1586783932065">
+    <state width="1419" height="484" key="GridCell.Tab.0.left" timestamp="1586790779878">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1419" height="489" key="GridCell.Tab.0.left/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586783932065" />
+    <state width="1419" height="484" key="GridCell.Tab.0.left/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586790779878" />
     <state width="1419" height="489" key="GridCell.Tab.0.left/0.23.1440.877/-1783.-1057.2048.1008@0.23.1440.877" timestamp="1586781301573" />
-    <state width="1419" height="489" key="GridCell.Tab.0.right" timestamp="1586783932066">
+    <state width="1419" height="484" key="GridCell.Tab.0.right" timestamp="1586790779881">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1419" height="489" key="GridCell.Tab.0.right/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586783932066" />
+    <state width="1419" height="484" key="GridCell.Tab.0.right/0.23.1440.828/-1783.-1057.2048.1057@0.23.1440.828" timestamp="1586790779881" />
     <state width="1419" height="489" key="GridCell.Tab.0.right/0.23.1440.877/-1783.-1057.2048.1008@0.23.1440.877" timestamp="1586781301574" />
     <state x="368" y="178" width="703" height="518" key="find.popup" timestamp="1586777611973">
       <screen x="0" y="23" width="1440" height="828" />

@@ -104,7 +104,7 @@ module.exports = {
         // Provide an object of Prismic custom type JSON schemas to load into
         // Gatsby. This is required.
         schemas: {
-          plans: require('./src/schemas/plans.json'),
+          plans: require("./src/schemas/plans.json")
           // Your custom types mapped to schemas
         },
 
@@ -121,7 +121,7 @@ module.exports = {
         // This defaults to always return false.
         shouldDownloadImage: ({ node, key, value }) => {
           // Return true to download the image or false to skip.
-          return false
+          return false;
         },
 
         // Set the prefix for the filename where type paths for your schemas are
